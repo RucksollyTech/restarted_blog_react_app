@@ -1,0 +1,17 @@
+.NavbarContainer{
+    padding: 10px 15px;
+}
+
+.NavbarContent{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.NavbarContent img{
+    max-width: 60px;
+}
+.rightNav{
+    padding-top: 4px;
+}
