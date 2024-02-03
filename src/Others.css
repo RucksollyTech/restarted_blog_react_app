@@ -15,3 +15,79 @@
 .rightNav{
     padding-top: 4px;
 }
+.rightNav a{
+    padding: 0 20px;
+    font-weight: 500;
+}
+.blogsContainer{
+    max-width: 1000px;
+    width: 100%;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.breadCrumbs{
+    display: none;
+}
+.sideBarNav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    left: -300px;
+    width: 300px;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+.sideBarNav.display{
+    left: 0;
+}
+.sideBarLinks *{
+    display: block;
+    padding: 10px 0;
+}
+.gridBottom{
+    background-color: #E4E4E4;
+    padding: 5px 20px 30px 20px;
+    border-radius: 0 0 14px 14px;
+}
+.imgCon{
+    max-height: 209px;
+}
+.imgCon img{
+    height: 100%;
+}
+
+/* Footer */
+.footer{
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 80px auto;
+    
+    border-top: 1px solid #928989;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px ;
+}
+.footerContainer a{
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+/* about */
+.about{
+    max-width: 1000px;
+    width: 100%;
+    margin: 60px auto;
+}
+
+/* Blog Detail */
+.blogsDetail{
+    max-width: 1000px;
+    width: 100%;
+    margin: 60px auto;
+}

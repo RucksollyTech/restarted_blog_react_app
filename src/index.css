@@ -14,9 +14,21 @@ code {
 img{
   max-width: 100%;
 }
+
 a{
-  text-decoration: none;
+  text-decoration: none !important;
   color: inherit !important;
 }
 
+/* Default Css */
 
+.bold6{
+  font-weight: 600 !important;
+}
+
+.leftBotton{
+  display: flex;
+}
+.leftBotton img{
+  margin-left: auto;
+}

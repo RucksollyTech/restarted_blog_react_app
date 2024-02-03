@@ -1,0 +1,43 @@
+@media (max-width : 1055px) {
+    .blogsContainer{
+        padding: 0 15px !important;
+    }
+    
+}
+@media (max-width: 600px) {
+    .rightNav a{
+        display: none;
+    }
+    .rightNav button{
+        margin-right: 20px;
+    }
+    .breadCrumbs{
+        display: inline-block;
+    }
+    .blogsContainer{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .displayBAr{
+        padding: 10px !important;
+    }
+    .displayBAr a{
+        margin: 0 10px !important;
+    }
+    .blogsContainer{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    
+    .displayBAr a{
+        margin: 0 5px !important;
+        font-size: 14px !important;
+    }
+}

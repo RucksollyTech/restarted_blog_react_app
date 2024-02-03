@@ -1,15 +1,25 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import Blogs from './Blogs'
 
 const Home = () => {
     return (
         <div>
-            <h1>
-                Hello World!
-            </h1>
-            <h3 className='text-danger'>
-                Starting another blog project
-            </h3>
-            <img src="/Images/del.png" alt="Design image" />
+            <div className="displayBAr">
+                <Link to={"/"} className='active'>
+                    Latest
+                </Link>
+                <Link to={"/"}>
+                    Popular
+                </Link>
+                <Link to={"/"}>
+                    Programming
+                </Link>
+                <Link to={"/"}>
+                    Books
+                </Link>
+            </div>
+            <Blogs />
         </div>
     )
 }
