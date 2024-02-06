@@ -2,9 +2,11 @@
     .blogsContainer{
         padding: 0 15px !important;
     }
-    
 }
 @media (max-width: 600px) {
+    .footer{
+        margin: 40px auto 0 auto;
+    }
     .rightNav a{
         display: none;
     }

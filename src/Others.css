@@ -54,10 +54,7 @@
     border-radius: 0 0 14px 14px;
 }
 .imgCon{
-    max-height: 209px;
-}
-.imgCon img{
-    height: 100%;
+    margin-bottom: 10px;
 }
 
 /* Footer */
@@ -72,6 +69,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 50px ;
+    flex-wrap: wrap;
 }
 .footerContainer a{
     font-weight: 500;
